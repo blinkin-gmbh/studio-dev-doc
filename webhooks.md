@@ -124,7 +124,10 @@ Webhook requests are sent as HTTP POST requests to your specified endpoint. The 
         "https://picassostorage.blob.core.windows.net/tenant/default/forms/01J5TB72HPP9BEQVKQ2VZ1GFM7.jpeg"
       ]
     },
-    "submissionId": 328,
+    "submissionIds": [
+      480,
+      481
+    ],
     "sessionId": 950,
     "submittedAt": "2024-08-21T08:30:10.042Z"
   }
