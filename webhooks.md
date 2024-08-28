@@ -19,7 +19,25 @@ Blinkin currently supports three types of webhook requests:
 3. AI Response
 
 ## Secure your Webhook Endpoint
+
 On the Webhooks page you can create a Secure Key which will be sent in the header of the webhook request. You can use this key to verify that the request headers is coming from Blinkin. Named as `x-sign-secret`
+
+## Block references
+
+You can set up custom field keys in the answers object for Form Requests.
+```json
+ {
+  "answers": {
+    "first_name": "John",
+    "my_images": [
+      "https://picassostorage.blob.core.windows.net/tenant/default/forms/01J5TB72HPP9BEQVKQ2VZ1GFM7.jpeg"
+    ]
+  }
+}
+```
+
+Go to Editor -> Form -> Settings -> Block References. Here you can set up custom field keys for the form fields.
+
 
 ## Request Format
 
